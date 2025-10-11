@@ -1,12 +1,6 @@
 (function(Scratch) {
   'use strict';
 
-  // Проверяем, что Scratch Extension API есть
-  if (!Scratch.extensions.unsandboxed) {
-    alert('Расширения должны быть в режиме "unsandboxed"!');
-    return;
-  }
-
   class ShackeTubeExtension {
     getInfo() {
       return {
